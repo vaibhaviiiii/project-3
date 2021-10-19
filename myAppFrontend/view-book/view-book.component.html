@@ -1,0 +1,28 @@
+<div class="container">
+<br><br>
+    <h2>Book Details</h2>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Book ID</th>
+          <th>Book Name</th>
+          <th>Author</th>
+          <th>Price</th>
+          
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr *ngIf="Book">
+          <td>{{Book.id}}</td>
+          <td>{{Book.name}}</td>
+          <td>{{Book.author}}</td>
+          <td>{{Book.price}}</td>
+          
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <button (click)="allBooks()" class="btn btn-primary">Back</button><br>
+</div>
