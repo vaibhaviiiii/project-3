@@ -1,8 +1,10 @@
 # project3
 
-"Book Keeper" a Book inventory project : it dipicts 4 main operations : adding book , viewinf total books , viewing details for individual books and removing out of stock books.
+"Book Keeper" is a Book inventory project: it depicts 4 main operations: adding books, viewing total books, viewing details for individual books, and removing out-of-stock books.
 
 Technologies used:
+
+Spring Boot, Angular, Java, CSS, HTML, JavaScript, MySQL
 
 Angular 8
 jdk 11
